@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+        <h1>My Portfolio</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Hi My Name Is Rami .</p>
+        
+        <video width="320" controls>
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/grp8Hle3umM"></iframe>
+        </video>
+        
+        <p>Skills:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>Work</h2>
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        
+        <table border="1">
+            <tr>
+                <th>Year</th>
+                <th>Activity</th>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>Learning HTML</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Student</td>
+            </tr>
+        </table>
+        
+        <br>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+            
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+            
+            <label>Message:</label><br>
+            <textarea name="message"></textarea><br><br>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>rami ayech</p>
+    </footer>
+
+</body>
+</html>
